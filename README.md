@@ -1,24 +1,21 @@
-# gitmain
+# peng-mui
 
-## Project setup
-```
-npm install
-```
+## 快速开始
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+### 安装组件库
+
+```bash
+npm install peng-mui
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### 引入组件库
 
-### Lints and fixes files
-```
-npm run lint
-```
+```javascript
+// 全局引入
+import PengUi from "peng-mui";
+Vue.use(PengUi);
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+// 按需引入
+import { Demo } from "peng-mui";
+Vue.use(Demo);
+```
